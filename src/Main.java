@@ -3,10 +3,10 @@ public class Main {//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 
     public static void main(String[] args) {
         int ticket = 13676;
-        int priceMile = 20;
-        boolean Correct = true;
+        int price = 20;
+    
 
-        int mile = ticket / priceMile;
+        int mile = ticket / price;
 
         System.out.println("Начислено миль: " + mile);
 
